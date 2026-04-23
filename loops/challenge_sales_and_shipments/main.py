@@ -18,6 +18,6 @@ for i in range(len(products)):
 for i in range(len(products)):
     products[i][1] += shipment_received[i][1]
 
-print("Final stock level for all products:", products)
+print("Final stock levels for all products:", products)
     
     
