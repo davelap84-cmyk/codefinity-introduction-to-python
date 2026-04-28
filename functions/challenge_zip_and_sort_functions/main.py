@@ -7,7 +7,7 @@ prices = [1.20, 0.50, 2.50, 1.75]
 # List of quantity sold
 quantities_sold = [50, 100, 25, 40]
 # Combined list of items using the zip function
-combined_list = zip(products, prices, quantities_sold);
+combined_list = list(zip(products, prices, quantities_sold));
 # Sorting the combined list using the sorted function
 sorted_products = sorted(combined_list);
 
